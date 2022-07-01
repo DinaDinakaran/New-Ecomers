@@ -1,0 +1,51 @@
+
+.flex-item{
+    width: 300px;
+    height: 400px;
+    border: 1px solid gray;
+    margin-top: 5%;
+   padding-left: 30px;
+}
+.product-img{
+    height:250px ;
+    width:300px ;
+}
+.name{
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+    font-size: large;
+    background-color:red;
+    width: 140px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+.discrib{
+    font-size: larger;
+    color: blue;
+}
+.rating{
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.cart1{
+    
+   
+   background-color:yellow;
+   color: rgb(0, 0, 0);
+   font-size: larger;
+   font-weight: 30px;
+   cursor: pointer;
+   border-radius: 6px;
+   
+}
+.cart1:hover{
+    background-color:green;
+    color: #fff;
+    border: 2px solid pink;
+    border-radius: 6px;
+}

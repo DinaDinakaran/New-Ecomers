@@ -1,0 +1,10 @@
+.flax-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    min-height: 300px;
+    margin-top: 70px;
+
+}

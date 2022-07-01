@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navheader{
+    min-height: 50px;
+    color: #fff;
+    background-color:black;
+    width: 100%;
+}
+.brand{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 7px;
+   font-size: 30px;
+   font-weight: 30px;
+   margin-left: 10%;
+
+}
+.attribute-one{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:15px;
+    margin-left: 30%;
+    background-color: black;
+    border: 0;
+    color: #fff;
+    font-weight: 20px;
+    font-size: 15px;
+}
+.attribute-two{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:15px;
+    margin-left: 35%;
+    background-color: black;
+    border: 0;
+    color: #fff;
+    font-weight: 20px;
+    font-size: 15px
+}
+.attribute-three{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:15px;
+    margin-left: 40%;
+    background-color: black;
+    border: 0;
+    color: #fff;
+    font-weight: 20px;
+    font-size: 15px
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:10px;
+   margin-left: 92%;
+   width: 100px;  
+   font-size: larger;
+   font-weight: 30px;
+   cursor: pointer;
+   
+}
+.cart:hover{
+    background-color: black;
+    color: #fff;
+    border: 2px solid pink;
+    border-radius: 6px;
+}
+.attribute-one:hover{
+    background-color: pink;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 4px;
+    cursor: pointer;
+}
+.attribute-two:hover{
+     background-color: pink;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 4px;
+}
+.attribute-three:hover{
+    background-color: pink;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 4px;
+    cursor: pointer;
+}
